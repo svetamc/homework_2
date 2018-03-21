@@ -1,0 +1,54 @@
+.container {
+        width: 1140px;
+        height: auto;
+        margin: 50px auto;
+}
+.name {
+        font-size:30px;
+        font-variant: small-caps;
+        color:#73c183;
+        font-family: Arial, sans-serif;
+        text-align: center;
+}
+.text_email {
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+.text_email input {
+    text-align: start;
+    color: #a6a5a5;
+    background-color: #f1f1f1;
+    width: 295px;
+    height: 30px;
+    border-radius: 3px;
+    border: 2px solid #3c4955 ;
+    font-family: Arial, sans-serif;
+}
+
+.text_info {
+    text-align: center;
+    margin: 10px;
+}
+.text_info input{
+    text-align: left;
+    color: #a6a5a5;
+    background-color: #f1f1f1;
+    width: 600px;
+    height: 130px;
+    border-radius: 3px;
+    border: 2px solid #3c4955 ;
+    word-break: break-all;
+}
+.snap input {
+    border: none;
+    border-radius: 3px;
+    width: 600px;
+    height: 30px;
+    background-color: #73c183;
+    color: #ffffff;
+}
+
+.snap {
+    text-align: center;
+}
