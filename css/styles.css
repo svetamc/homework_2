@@ -30,7 +30,7 @@
     text-align: center;
     margin: 10px;
 }
-.text_info input{
+.text_info textarea{
     text-align: left;
     color: #a6a5a5;
     background-color: #f1f1f1;
