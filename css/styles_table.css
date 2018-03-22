@@ -1,0 +1,28 @@
+.tabl {
+    empty-cells: show;
+    border-collapse: collapse;
+    text-align: center;
+}
+.tabl_head {
+    font-weight: bold;
+}
+.tabl th,td {
+    empty-cells: show;
+    border: 1px solid black;
+    padding: 3px 35px;
+    }
+.name {
+    text-align: center;
+}
+.ital {
+    background: darkgreen;
+    color: #f1f1f1;
+}
+.foot {
+    color: blue;
+    border: 5px double #000
+}
+.five {
+    padding-left: 0px;
+    text-align: left;
+}
