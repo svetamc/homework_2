@@ -57,7 +57,7 @@
 .header_h  {
     margin: 30px;
 }
-.batton {
+.header_click {
     background: rgba(0,0,0,0);
     color: #48bf72;
     border: 2px;
@@ -83,14 +83,24 @@
 }
 .text_email {
     text-align: center;
-    margin-bottom: 0px;
-
+    margin-bottom: 0;
 }
-.text_email input {
+.text_ {
+    margin-right: 20px;
     text-align: start;
     color: #a6a5a5;
     background-color: #f1f1f1;
-    width: 295px;
+    width: 335px;
+    height: 30px;
+    border-radius: 3px;
+    border: 2px solid #3c4955 ;
+    font-family: Arial, sans-serif;
+}
+.email_ {
+    text-align: start;
+    color: #a6a5a5;
+    background: #f1f1f1;
+    width: 335px;
     height: 30px;
     border-radius: 3px;
     border: 2px solid #3c4955 ;
@@ -101,25 +111,24 @@
     text-align: center;
     margin: 10px;
 }
-.text_info textarea{
+.text_input {
     text-align: left;
     color: #a6a5a5;
     background-color: #f1f1f1;
-    width: 600px;
-    height: 130px;
+    width: 700px;
+    height: 228px;
     border-radius: 3px;
     border: 2px solid #3c4955 ;
     word-break: break-all;
 }
-.snap input {
+.snap_ {
     border: none;
     border-radius: 3px;
-    width: 600px;
+    width: 700px;
     height: 30px;
     background-color: #73c183;
     color: #ffffff;
 }
-
 .snap {
     text-align: center;
 }
