@@ -1,7 +1,78 @@
+.body_1 {
+    padding: 0;
+    margin: 0;
+}
+.header_1 {
+    background: url(../images/computer.jpg) no-repeat center top/cover;
+    padding-bottom: 160px;
+}
 .container {
         width: 1140px;
         height: auto;
-        margin: 50px auto;
+        margin: 0px auto;
+        box-sizing: border-box;
+}
+.nav_:after {
+    content: "";
+    display: table;
+    width: 100%;
+    clear: both;
+}
+.logo {
+    display:block;
+    background: url(../images/foliac-logo.png) no-repeat top/cover;
+    height: 108px;
+    width: 190px;
+    margin-top: 40px;
+    float: left;
+
+}
+.nav_1 {
+    float: right;
+    margin-top: 80px;
+    padding: 0px;
+    display: block;
+    border-right: 3px;
+}
+.nav_1 a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.nav_1 a::after {
+    margin-left: 50px;
+    margin-right: 0px;
+    content: "/";
+}
+.nav_2  {
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 190px;
+    }
+.nav_2 h1 {
+    margin: 30px;
+}
+.batton {
+    background: rgba(0,0,0,0);
+    color: #48bf72;
+    border: 2px;
+    border-radius: 3px;
+    border-style: solid;
+    width: 138px;
+    display: block;
+    padding: 15px 0;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 48px;
 }
 .name {
         font-size:30px;
@@ -52,3 +123,54 @@
 .snap {
     text-align: center;
 }
+.footer_site {
+    margin-top: 50px;
+    width: 100%;
+    height: 90px;
+    background: #3c4955;
+}
+.lette_site {
+    display: block;
+    float: left;
+    color: white;
+    font-size: 14px;
+    font-family: monospace;
+    margin: 45px 0 45px 0;
+    text-align: left;
+}
+.letter {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.social {
+    margin: 15px 0 15px 0;
+    padding: 0;
+    float: right;
+}
+.social_nav {
+    display: inline-block;
+    width: 390px;
+    height: 56px;
+}
+.social_nav a {
+    display: inline-block;
+    width: 53px;
+    height: 55px;
+    margin-left:  30px;
+    float: right;
+    background-image: url(../images/social.png);
+}
+
+.social-Twitter {
+    background: url(../images/social.png) 0px 0;
+}
+.social-LinkedIn {
+    background: url(../images/social.png) -90px 0;
+}
+.social-Dribbble {
+    background: url(../images/social.png) -180px 0;
+ }
+.social-Behance {
+    background: url(../images/social.png) -265px 0;
+  }
